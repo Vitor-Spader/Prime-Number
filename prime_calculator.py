@@ -26,7 +26,9 @@ class p_number():
             return True
         else:
             return False
+'''
 p = []
 for x in range(0,50000000):
     p.append(p_number(x))
     print(x,":","prime" if p[x].prime_calc() else "its not prime")
+'''
